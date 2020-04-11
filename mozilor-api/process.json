@@ -1,0 +1,21 @@
+{
+  "apps" : [{
+    "name"       : "PMSAPI",
+    "script"     : "./deploy/www",
+    "instances"  : 0,
+    "exec_mode"  : "cluster"
+  },
+  {
+    "name"       : "PMSQCAPI",
+    "script"     : "./deploy/www",
+    "instances"  : 0,
+    "exec_mode"  : "cluster"
+  },
+  {
+    "name"       : "PMSDEVAPI",
+    "script"     : "./deploy/www",
+    "instances"  : 0,
+    "exec_mode"  : "cluster"
+  }
+  ]
+}

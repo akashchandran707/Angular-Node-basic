@@ -1,0 +1,38 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+app-root, app-root > div, app-home {
+    // min-height: 100%;
+    height: 100%;
+}
+
+.container-fluid {
+    // padding-left: 110px;
+    // padding-right: 110px;
+    height: 100%;
+    max-width: 95%;
+}
+
+.container {
+    height: 100%;
+    @media screen and (max-width:767px) {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
+    }
+    @media screen and (max-width: 1560px) and (min-width:1200px) {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+@media (min-width: 1200px) {
+        max-width: 1403px;
+        &.app-container-custom-width {
+            max-width: 1000px;
+        }
+    }
+}

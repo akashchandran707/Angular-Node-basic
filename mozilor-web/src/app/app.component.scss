@@ -1,0 +1,36 @@
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+  }
+
+
+
+  .container {
+    margin-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    width: 9.5%;
+    min-height: 90px;
+    align-items: center;
+    justify-content: center;
+    // padding-bottom: 9%; /* 32:18, i.e. 16:9 */
+    margin-bottom: 1%; /* (100-9.5*10)/2 */
+    background-color: #ee725c;
+    
+    display: flex;
+    &.reserved {
+        background-color: #6ae470;
+    }
+  }
