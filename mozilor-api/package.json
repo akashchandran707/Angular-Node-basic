@@ -35,7 +35,7 @@
         "node-excel-export": "^1.4.4",
         "pg": "^7.11.0",
         "pg-hstore": "^2.3.3",
-        "pm2": "^3.5.1",
+        "pm2": "^5.2.0",
         "proxyquire": "^2.1.0",
         "proxyrequire": "^1.0.21",
         "request": "^2.88.0",
