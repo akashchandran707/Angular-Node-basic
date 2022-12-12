@@ -20,7 +20,7 @@
         "cors": "^2.8.5",
         "dotenv": "^8.0.0",
         "es6-template-strings": "^2.0.1",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "express-mung": "^0.5.1",
         "glob": "^7.1.4",
         "google-auth-library": "^4.2.5",
